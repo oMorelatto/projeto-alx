@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ALX | Contato</title>
+
+    <meta name="application-name" content="ALX RH" />
+
+    <meta name="author" content="Morelatto Tech - Soluções Web e Mobile" />
+    <meta name="company" content="MorelattoTech" />
+    <meta name="reply-to" content="morelattotch@gmail.com" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ALX RH" />
+    <meta property="og:locale" content="pt_BR" />
+    <link rel="canonical" href="contato.html" />
+    <meta name="url" content="contato.html" />
+    <meta property="og:url" content="contato.html" />
+    <meta name="title" content="Contato" />
+    <meta property="og:title" content="Contato" />
+    <meta property="twitter:title" content="Contato" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Raleway|Roboto&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="./css/default.min.css" rel="stylesheet" />
+    <link href="./css/slick.css" rel="stylesheet" />
+    <link href="./css/all.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+
+    <header class="header">
+      <div class="content">
+        <div class="common-limiter">
+          <div class="top-menu">
+            <div class="box-logo">
+              <a href="index.html">
+                <img src="./photos/Preto.png" alt="." class="logo main" />
+                <img src="./photos/Preto.png" alt="." class="logo white" />
+              </a>
+              <h1 class="hide">ALX Recursos Humanos</h1>
+            </div>
+
+            <nav class="nav-botoes">
+              <ul clas="ul-botoes">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="oportunidades.html">Oportunidades</a></li>
+                <li><a href="sobre.html">Sobre a ALX</a></li>
+                <li>
+                  <a href="contato.html">Contato / Envie seu curriculo</a>
+                </li>
+                <li><a href="">Serviços</a></li>
+              </ul>
+            </nav>
+
+            <div class="right">
+              <nav class="mideas">
+                <a
+                  href="https://www.facebook.com/alxrecursoshumanos"
+                  class="midea"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/alx-recursos-humanos/"
+                  class="midea"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/alxrecursoshumanos/"
+                  class="midea"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="contact internal">
+      <section class="common-limiter content-contact internal">
+        <div class="box-title">
+          <h1 class="bg-title">Contato / Envie seu currículo</h1>
+        </div>
+        <div class="alinha-contato">
+          <div class="address">
+            <h3 class="title common-title">Endereço</h3>
+            <p class="no-margin">
+              Rua. Bolivar Pedroti Melgare, 124, Interlagos, Caxias do Sul, RS,
+              95052-100
+            </p>
+
+            <h3 class="title common-title">Telefone</h3>
+            <p>(54) 9 8436.4876</p>
+            <h3 class="title common-title">Horários</h3>
+            <p class="no-margin">
+              De segunda à sexta-feira <br />
+              Manhã: 08h às 12h <br />
+              Tarde: 13h às 17h <br />
+            </p>
+          </div>
+          <form
+            action="../email.php"
+            class="common-form ajax-form"
+            method="POST"
+          >
+            <div class="list-input">
+              <div class="box-input">
+                <input
+                  class="input"
+                  data-val="true"
+                  data-val-required="Você deve informar o nome"
+                  id="Nome"
+                  name="Nome"
+                  style="padding-left: 75px"
+                  type="text"
+                  value=""
+                />
+                <span
+                  class="field-validation-valid"
+                  data-valmsg-for="Nome"
+                  data-valmsg-replace="true"
+                ></span>
+                <label for="Nome">Nome*</label>
+              </div>
+
+              <div class="box-input">
+                <input
+                  class="input"
+                  data-val="true"
+                  data-val-regex="Você deve informar um e-mail válido"
+                  data-val-regex-pattern="[a-z0-9!#$%&amp;&#39;*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&amp;&#39;*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+                  data-val-required="Você deve informar o e-mail"
+                  id="Email"
+                  name="Email"
+                  style="padding-left: 75px"
+                  type="email"
+                  value=""
+                />
+                <span
+                  class="field-validation-valid"
+                  data-valmsg-for="Email"
+                  data-valmsg-replace="true"
+                ></span>
+                <label for="Email">E-mail*</label>
+              </div>
+            </div>
+            <div class="list-input">
+              <div class="box-input">
+                <input
+                  class="input"
+                  id="Empresa"
+                  name="Empresa"
+                  style="padding-left: 85px"
+                  type="text"
+                  value=""
+                />
+                <label for="Empresa">Empresa</label>
+              </div>
+
+              <div class="box-input">
+                <input
+                  class="input"
+                  id="Telefone"
+                  name="Telefone"
+                  style="padding-left: 85px"
+                  type="text"
+                  value=""
+                />
+                <label for="Telefone">Telefone*</label>
+              </div>
+            </div>
+            <select
+              class="input select"
+              data-val="true"
+              data-val-required="Você deve informar o assunto"
+              id="Assunto"
+              name="Assunto"
+            >
+              <option selected="selected" value="">Assunto*</option>
+              <option>Cadastro de Currículo</option>
+              <option value="Dúvidas">Dúvidas</option>
+              <option value="Elaboração | Revisão de Currículos">
+                Elaboração | Revisão de Currículos
+              </option>
+              <option value="Elogio | Reclamação | Sugestão">
+                Elogio | Reclamação | Sugestão
+              </option>
+              <option value="Orientação de Carreira">
+                Orientação de Carreira
+              </option>
+              <option value="Serviços para minha empresa">
+                Serviços para minha empresa
+              </option></select
+            ><span
+              class="field-validation-valid"
+              data-valmsg-for="Assunto"
+              data-valmsg-replace="true"
+            ></span>
+            <div class="box-input box-textarea">
+              <textarea
+                class="input textarea"
+                cols="20"
+                data-val="true"
+                data-val-required="Você deve informar a dúvida/sugestão"
+                id="Mensagem"
+                name="Mensagem"
+                rows="2"
+                style="padding-left: 100px"
+              ></textarea>
+              <span
+                class="field-validation-valid"
+                data-valmsg-for="Mensagem"
+                data-valmsg-replace="true"
+              ></span>
+              <label for="Mensagem">Mensagem*</label>
+            </div>
+            <div class="formulario">
+              <span>Anexo currículo</span>
+              <input type="file" id="anexo" name="Anexo" />
+              <br />
+            </div>
+            <div class="footer-form">
+              <button type="submit" class="submit common-button primary">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <div class="mapa-conteudo">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.5580152814287!2d-51.166063599999994!3d-29.1482243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ebd2519b9819b%3A0xe86579ffec18debf!2sR.%20Bol%C3%ADvar%20Pedroti%20Melgare%2C%20124%20-%20Sagrada%20Fam%C3%ADlia%2C%20Caxias%20do%20Sul%20-%20RS%2C%2095052-100!5e0!3m2!1spt-BR!2sbr!4v1661873888412!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <section class="content-footer">
+        <div class="common-limiter">
+          <div class="left">
+            <img
+              src="./photos/Logotipos (2).png"
+              class="logo"
+              alt="."
+            />
+            <div class="description common-text">
+              A ALX Recursos Humanos tem atuação na cidade de Caxias do Sul - RS
+              e região através de soluções voltadas para profissionais e para
+              empresas de pequeno e médio porte.
+            </div>
+          </div>
+
+          <div class="center">
+            <h3 class="subtitle">Veja Tamb&#233;m</h3>
+            <div class="box-nav">
+              <nav>
+                <a href="index.html" target="_self"> In&#237;cio</a>
+                <a href="oportunidades.html" target="_self"> Oportunidades</a>
+                <a href="sobre.html" target="_self"> Sobre a ALX </a>
+              </nav>
+
+              <nav>
+                <a href="contato.html" target="_self">
+                  Contato / Envie seu curriculo</a
+                >
+                <a href="politica.html" target="_self">
+                  Política de Privacidade</a
+                >
+              </nav>
+            </div>
+          </div>
+
+          <div class="right">
+            <h3 class="subtitle">Entre em Contato</h3>
+
+            <div class="info">
+              <i class="fas fa-map-marker-alt"></i>
+              <span
+                >Rua. Bolivar Pedroti Melgare, 124, Interlagos, Caxias do Sul,
+                RS, 95052-100</span
+              >
+            </div>
+            <div class="info">
+              <i class="fas fa-phone"></i>
+              <span>(54) 9 8436.4876</span>
+            </div>
+
+            <div class="info">
+              <a
+                href="https://www.facebook.com/alxrecursoshumanos"
+                class="midea"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/alx-recursos-humanos/"
+                class="midea"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/alxrecursoshumanos/"
+                class="midea"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="copyright">
+        <div class="common-limiter">
+          <span
+            >ALX Recursos Humanos – Todos os direitos reservados © 2022</span
+          >
+          <div class="rodap">
+            <span>Desenvolvido por Morelatto Tech</span>
+
+            <!-- <a href="https://www.morelatto.tech/" target="_blank">
+            </a>
+        -->
+          </div>
+        </div>
+      </section>
+
+      <div class="faixa-cookie escondido">
+        <div class="faixa-cookie-content">
+          <p class="faixa-cookie-p">
+            Nós usamos cookies e outras tecnologias semelhantes para melhorar a
+            sua experiência em nossos serviços, personalizar publicidade e
+            recomendar conteúdo de seu interesse. Ao utilizar nossos serviços,
+            você concorda com tal monitoramento. Conheça nossa
+            <a target="_blank" href="Politica.html">Política de Privacidade</a>.
+          </p>
+          <div class="faixa-cookie-botao">
+            <button class="faixa-cookie-botao-link">Prosseguir</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Politica de Privacidade-->
+    <script src="Scripts/cookies.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const cookie = Object.create(CookiesJS)
+        let item = cookie.checkCookie('authorized_cookie')
+        const PopCookie = document.querySelector('.faixa-cookie')
+        const BotaoCookie = document.querySelector('.faixa-cookie-botao-link')
+        if (!item) {
+          setTimeout(function () {
+            PopCookie.classList.remove('escondido')
+          }, 1000)
+        }
+        BotaoCookie.addEventListener('click', () => {
+          cookie.setCookie('authorized_cookie', true)
+          PopCookie.classList.add('escondido')
+        })
+      })
+    </script>
+  </body>
+</html>
