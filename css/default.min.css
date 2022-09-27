@@ -1409,7 +1409,7 @@ main {
   }
 }
 .header .content .common-limiter .top-menu .right .mideas .midea:hover {
-  background: #02104d;
+  background: #5e17eb;
   color: #fff;
 }
 .header .content .common-limiter .menu {
@@ -1572,7 +1572,7 @@ main {
   background: #02104d !important;
 }
 nav.nav-botoes a:hover {
-  color: #004dc6;
+  color: #5e17eb;
 }
 
 ul li {
@@ -1829,7 +1829,7 @@ body.open {
   font-size: 16px;
 }
 .footer .content-footer .center .box-nav nav a:hover {
-  color: #004dc6;
+  color: #5e17eb;
 }
 .footer .content-footer .center .common-button {
   width: 180px;
@@ -4324,4 +4324,20 @@ body.open {
 }
 .for-companies .types .common-limiter .slick-types .slick-arrow.slick-next {
   right: -10px;
+}
+
+.container-vagas {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
